@@ -26,7 +26,7 @@ function loadData() {
     	$nytHeaderElem.text('New York Times Articles About ' + cityStr);
 
     	articles = data.response.docs;
-    	for (var i = 0; i < 6; i++) {
+    	for (var i = 0; i < 5; i++) {
     		var article = articles[i];
     		$nytElem.append('<li class="article">'+'<a href="'+article.web_url+'">'+article.headline.main+'</a>'+'<p>' + article.snippet + '</p>'+'</li>');
     	};
