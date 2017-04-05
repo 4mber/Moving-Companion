@@ -19,7 +19,8 @@ a {
     position:fixed;
     top: 0;
     left: 0;
-    width:100%;
+    width: 1500px;
+    height: 100vh;
     z-index:-1;
     opacity:1;
     object-fit: cover;
@@ -71,8 +72,8 @@ h2 {
 }
 
 .form-content {
-    padding-left: 10px;
-    padding-top: 10px;
+    padding-left: 1%;
+    padding-top: 1%;
 }
 
 hr {
