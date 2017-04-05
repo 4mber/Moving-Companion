@@ -69,7 +69,7 @@ h2 {
     font-size: 2.5em;
 }
 
-label {
+.form-content {
     padding-left: 10px;
     padding-top: 10px;
 }
