@@ -22,6 +22,7 @@ a {
     width:100%;
     z-index:-1;
     opacity:1;
+    object-fit: cover;
 }
 
 .greeting {
