@@ -60,3 +60,6 @@ a {
 .article:first-child {
     border-top:none;
 }
+h2 {
+    font-family: 'IM Fell English', serif;
+}
