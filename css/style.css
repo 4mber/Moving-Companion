@@ -83,7 +83,7 @@ hr {
     margin: 0;
 }
 
-@media (max-width : 769px) {
+@media (max-width : 1025px) {
     
     .nytimes-container {
         width: 100%;
@@ -100,5 +100,13 @@ hr {
     
     .form-container {
         text-align: center;
+    }
+    
+    .form-content {
+        padding-top: 5px;
+    }
+    
+    input {
+        width: 25%;
     }
 }
