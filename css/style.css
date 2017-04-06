@@ -82,3 +82,19 @@ h2 {
 hr {
     margin: 0;
 }
+
+@media (max-width : 769px) {
+    
+    .nytimes-container {
+        width: 100%;
+    }
+    
+    .wikipedia-container {
+        width: 100%;
+        float: none;
+    }
+    
+    .bgimg {
+        width: 100%;
+    }
+}
