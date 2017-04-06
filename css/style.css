@@ -89,7 +89,7 @@ footer {
     z-index: 3;
     padding-left: 15px;
     padding-bottom: 0;
-    font-weight: lighter;
+    font-weight: normal;
     font-size: 20px;
 }
 
@@ -130,7 +130,7 @@ footer {
     }
     
     footer {
-        bottom: -49vh;
+        bottom: -955px;
         width: 100vw;
         padding-left: 0;
         text-align: center;
