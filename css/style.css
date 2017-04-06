@@ -97,4 +97,8 @@ hr {
     .bgimg {
         width: 769px;
     }
+    
+    .form-container {
+        text-align: center;
+    }
 }
