@@ -83,6 +83,25 @@ hr {
     margin: 0;
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+    max-width: 200px;
+    padding-left: 15px;
+    padding-bottom: 0;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.icon {
+    width: 35px;
+}
+
+.powered-txt {
+    vertical-align: 10px;
+}
+
 @media (max-width : 1025px) {
     
     .nytimes-container {
@@ -109,5 +128,13 @@ hr {
     
     input {
         width: 25%;
+    }
+    
+    footer {
+        bottom: -49vh;
+        width: 100vw;
+        padding-left: 0;
+        text-align: center;
+        max-width: 100%;
     }
 }
