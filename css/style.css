@@ -85,6 +85,10 @@ hr {
 
 @media (max-width : 1025px) {
     
+    h1 {
+        color: white;
+    }
+    
     .nytimes-container {
         width: 100%;
     }
